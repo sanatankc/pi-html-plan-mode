@@ -26,6 +26,12 @@ The extension owns the stable UX around it.
 
 ## Install
 
+From GitHub:
+
+```bash
+pi install git:github.com/sanatankc/pi-html-plan-mode
+```
+
 From a local checkout:
 
 ```bash
