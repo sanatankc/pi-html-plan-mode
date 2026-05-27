@@ -1,0 +1,29 @@
+{
+  "name": "pi-html-plan-mode",
+  "version": "0.1.0",
+  "description": "HTML plan mode extension for pi: agent-authored HTML plans with browser comments and build/modify handoff.",
+  "type": "module",
+  "keywords": [
+    "pi-package",
+    "pi-coding-agent",
+    "plan-mode",
+    "html-plan"
+  ],
+  "license": "MIT",
+  "pi": {
+    "extensions": [
+      "./extensions/pi-html-plan-mode/index.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "typebox": "*"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "typescript": "^5.8.3"
+  }
+}
